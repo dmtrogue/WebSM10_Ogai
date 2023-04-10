@@ -66,7 +66,7 @@ def main():
             res_12_unsorted.append((d.name, d_area_sum))
 
 
-    # Сортировка по суммарной зарплате
+    # Сортировка по суммарной площади домов
     res_12 = sorted(res_12_unsorted, key=itemgetter(1), reverse=True)
     print(res_12)
 
