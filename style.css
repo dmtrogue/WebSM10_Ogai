@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#otv_face{
+    background-color: bisque;
+    color: cadetblue;
+    width: 20%;
+    margin: auto;
+}
+
+#my_photo{
+    margin: auto;
+}
+
+.myheader{
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(161, 8, 8);
+}
+
+.myline{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+}
