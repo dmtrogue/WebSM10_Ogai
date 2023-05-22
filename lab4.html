@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Что будет сверху</title>
+</head>
+<body>
+  <h1>Привет, я сервер</h1>
+  <div>Улица: {{street.name}}</div>
+  <div>Площадь домов: {{street.house_area}}</div>
+  <div>Длина улицы: {{street.street_long}}</div>
+  <div>Дома: </div>
+  {% for h in street.houses: %}
+  <div>{{h.number}} </div>
+  <div>{{h.count_flats}} </div>
+  <div>{{h.count_floors}} </div>
+  <img src="./static/{{h.image}}" width="150" height="150">
+  {% endfor %}
+  <br>
+</body>
+</html>
